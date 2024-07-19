@@ -1,0 +1,26 @@
+.form {
+    display: block;
+    border: 2px solid black;
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.input:not(:last-child) {
+    /* margin-bottom: 20px; */
+}
+.input {
+    width: 100%;
+}
+.button {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.error {
+    display: block;
+    font-size: 14px;
+    color: red;
+}
+.box {
+    margin-bottom: 20px;
+}
